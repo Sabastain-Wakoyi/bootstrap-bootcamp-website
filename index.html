@@ -48,7 +48,7 @@
               <a href="#instructors" class="nav-link">Instructors</a>
             </li>
             <li class="nav-items">
-              <a href="#Personal Bio" class="nav-link">Personal Bio</a>
+              <a href="#PersonalBio" class="nav-link">Personal Bio</a>
             </li>
           </ul>
         </div>
@@ -450,25 +450,27 @@
 
       <!--<Personal Bio Section>-->
 
-    <div class="Container">
-        <table>
-          <tr>
-            <td>
+    <div class="container p-3" id="PersonalBio">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
 
-      <section id="Personal Bio" class="p-5 bg-primary">
-      <label for="Name">Name</label>
-      <input type="text" id="Name">
-      <label for="Contact"> Contact </label>
-      <input type="text" id="Contact" name="">
+      <div class="mb-3">
+      <label for="Name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="Name">
+      </div>
+      <div class="mb-3">
+      <label for="Contact" class="form-label"> Contact </label>
+      <input type="text" class="form-control" id="Contact" name="">
+      </div>
       <label for="Date of Birth">Date of Birth</label>
       <input type="Date" id="Date of Birth" name="Date of Birth">
       <label for="Date of Joining">Date of Joining</label>
       <input type="Date" id="Date of Joining" name="Date of Joining">
-      </section>
 
       <label for="Expertise">Expertise</label>
-          <tr>
-            <td>
+
       <section name="Expertise" id="Expertise">
         <option value="Expertise" > Expertise </option>
         <option value="Senior Level 9">Senior Level 9 </option>
@@ -478,13 +480,7 @@
 
 
       </section>
-          </td>
-        </tr>
-    </section>
 
-            </td>
-          </tr>
-    </table>
     </div>
 
     <!-- Contact & Map -->
