@@ -6,6 +6,6 @@ function SubmitDetails() {
     var DOJ = document.getElementById('DOJ').value
     var expertise = document.getElementById('expertise').value
 
-    alert('Full Name: '+Name+'\n\nPhone Number: '+number+'\n\nEmail: '+email+'\n\nDate of Birth: '+DOB+'\n\nDate of Joining: '+DOJ+'\n\nExpertise: '+expertise)
+    alert('Name: '+Name+'\n\nPhone Number: '+number+'\n\nEmail: '+email+'\n\nDate of Birth: '+DOB+'\n\nDate of Joining: '+DOJ+'\n\nExpertise: '+expertise)
 
 }
