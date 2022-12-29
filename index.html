@@ -453,65 +453,50 @@
 
       <!--<Personal Bio Section>-->
 
-    <form action="" >
+
 
     <div class="container p-3 p-5 bg-primary" id="PersonalBio">
-      <div class="mb-3 form-group">
+      <div class="mb-3 ">
       <label for="Name" class="form-label">Name</label>
       <input type="text" class="form-control" id="Name">
       </div>
 
-      <div class="mb-3 form-group">
-      <label for="Contact" class="form-label"> Contact </label>
-      <input type="text" class="form-control" id="Contact" name="">
+      <div class="mb-4">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="abe@example.com">
+      </div>
+
+      <div class="mb-3 ">
+      <label for="number" class="form-label"> Contact </label>
+      <input type="number" class="form-control" id="number" placeholder="1(XXX) XXX-XXX">
       </div>
 
       <div class="mb-3 form-group">
-      <label for="Date of Birth" class="form-label">Date of Birth</label>
-      <input type="Date" class="form-control" id="Date of Birth" name="Date of Birth">
+      <label for="DOB" class="form-label">Date of Birth</label>
+      <input type="Date" class="form-control" id="DOB" name="Date of Birth">
       </div>
 
-      <div class="mb-3 form-group">
-      <label for="Date of Joining" class="form-label">Date of Joining</label>
-      <input type="Date" class="form-control" id="Date of Joining" name="Date of Joining">
+      <div class="mb-3">
+      <label for="DOJ" class="form-label">Date of Joining</label>
+      <input type="Date" class="form-control" id="DOJ" name="Date of Joining">
       </div>
 
 
-      <select class="form-select" aria-label="Default select example">
+
+      <select class="form-select" aria-label="Default select example" id="expertise">
         <option selected>Expertise</option>
         <option value="1">Senior Level 9</option>
         <option value="2">Mid Level 6</option>
         <option value="3">Junior Level 4</option>
       </select>
 
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
-        </div>
   <br>
- <button class="btn btn-warning" type="Submit">Submit</button>
+ <button class="btn btn-warning" type="Submit" onclick="SubmitDetails()">Submit</button>
 
 
     </div>
 
-    </form>
-<!--<beginning></beginning>-->
 
-    <form action="">
-      <div class="form-group">
-        <label for="email">Email address:</label>
-        <input type="email" class="form-control" id="email">
-      </div>
-      <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="pwd">
-      </div>
-      <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
-
-<!--    ≤end>-->
 
 
 
