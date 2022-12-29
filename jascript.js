@@ -14,18 +14,18 @@ function SubmitDetails() {
 
     alert('Name: '+Name+'\n\nPhone Number: '+number+'\n\nEmail: '+email+'\n\nDate of Birth: '+DOB+'\n\nDate of Joining: '+DOJ+'\n\nExpertise: '+expertise)
 
-    tbody.innerHTML +=
+    tbody.innerHTML += ` 
         <tr>
             <th scope="row">${Num}</th>
-            <td>$Name</td>
-            <td>$number</td>
-            <td>$email</td>
-            <td>$DOB</td>
-            <td>$DOJ</td>
-            <td>$Expertise</td>
+            <td>${Name}</td>
+            <td>${number}</td>
+            <td>${email}</td>
+            <td>${DOB}</td>
+            <td>${DOJ}</td>
+            <td>${expertise}</td>
 
         </tr>
-
+        `
 
     Num++
 
